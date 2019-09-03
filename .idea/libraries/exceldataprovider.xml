@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="exceldataprovider">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/exceldataprovider.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/excelreader_selenium-v3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-chrome-driver-3.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-server-standalone-3.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/testng-6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
