@@ -32,7 +32,8 @@ public class SetUp {
 
     }
     @AfterMethod
-    public void close(){
-       // driver.quit();
+    public void close() throws InterruptedException {
+        Thread.sleep(10000);
+        driver.quit();
     }
 }

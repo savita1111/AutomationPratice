@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01ea46e0-6fdf-424c-9b81-b7d1ef92834f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webdriver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Webdriver/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutomationPractice/Elements/AddCartElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationPractice/Elements/AddCartElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutomationPractice/Elements/LoginPageElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationPractice/Elements/LoginPageElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutomationPractice/Elements/SignInPageElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationPractice/Elements/SignInPageElement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutomationPractice/Test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationPractice/Test/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutomationPractice/Test/SetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationPractice/Test/SetUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AutomationPractice/Test/SignupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationPractice/Test/SignupTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Elements/AddCartElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/AddCartElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/SetUp.java" afterDir="false" />
@@ -32,6 +27,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="LoginTest" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="1QJhVtx4JUCxkCxskjygMB6uzbM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.11820328" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.Loginfunction">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -152,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.Loginfunction" />
-        <item itemvalue="TestNG.LoginTest.add2nd" />
-        <item itemvalue="TestNG.LoginTest.addCart" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.Loginfunction" />
+        <item itemvalue="TestNG.LoginTest.addCart" />
+        <item itemvalue="TestNG.LoginTest.add2nd" />
         <item itemvalue="TestNG.SignupTest.SignupFunction" />
       </list>
     </recent_temporary>

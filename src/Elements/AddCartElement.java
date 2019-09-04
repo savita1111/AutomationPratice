@@ -29,6 +29,7 @@ public class AddCartElement {
     WebElement addtoCartButton;
 
     public void clickAddToCartButton(){
+      //  driver.switchTo().frame("fancybox-frame1567579958772");
         addtoCartButton.click();
     }
 
@@ -40,30 +41,37 @@ public class AddCartElement {
         continueShopping.click();
     }
 
-      //******** Second Category ******
-    @FindBy(xpath = "//a[@class=\"sf-with-ul\"][@title=\"Women\"]")
-    WebElement add2ndcart;
 
-    public void click2ndCategory(){
-        add2ndcart.click();
-    }
-    @FindBy(xpath = "//a[@data-id-product=\"4\"][@title=\"Add to cart\"]")
-    WebElement add2ndproduct;
+
+      //******** Second Category ******
+   /*
+    @FindBy(xpath = "//a[@class=\"sf-with-ul\"][@title=\"Dresses\"]")
+    WebElement dressCategory;
+
+
+    public void clickDressCategory(){
+        dressCategory.click();
+    }*/
+
+  /*  @FindBy(xpath = "//div[@class=\"product-image-container\"]")
+    WebElement product2;
 
     public void click2ndproduct(){
-        add2ndproduct.click();
-    }
+        product2.click();
+    }*/
+
     @FindBy(xpath = "//a[@class=\"btn btn-default button button-medium\"]")
-    WebElement Checkout;
+    WebElement Checkoutfirst;
 
-    public void clickCheckout(){
-        Checkout.click();
+    public void clickCheckout1(){
+        Checkoutfirst.click();
     }
-    @FindBy(xpath = "//a[@class=\"button btn btn-default standard-checkout button-medium\"]")
-    WebElement proceedCheckout;
 
-    public void clickProceed(){
-        proceedCheckout.click();
+    @FindBy(xpath = "//a[@title=\"Proceed to checkout\"]")
+    WebElement proceedCheckout1;
+
+    public void clickProceedtoCheckout1(){
+        proceedCheckout1.click();
     }
     @FindBy(xpath = "//a[@class=\"button-exclusive btn btn-default\"]")
     WebElement proceedCheckout2;
