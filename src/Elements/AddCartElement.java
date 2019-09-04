@@ -17,4 +17,27 @@ public class AddCartElement {
     public void setBtnwoman() {
          btnwoman.click();
     }
+
+    @FindBy(xpath = ".//div[@class=\"product-image-container\"]")
+    WebElement product;
+
+    public void clickProduct(){
+        product.click();
+    }
+
+    @FindBy(xpath = ".//button[@class=\"exclusive\"]")
+    WebElement addtoCartButton;
+
+    public void clickAddToCartButton(){
+        addtoCartButton.click();
+    }
+
+    //Click continue shopping if you want to
+    @FindBy(xpath = ".//i[@class=\"icon-chevron-left left\"]")
+    WebElement continueShopping;
+
+    public void clickContinueShpping(){
+        continueShopping.click();
+    }
 }
+

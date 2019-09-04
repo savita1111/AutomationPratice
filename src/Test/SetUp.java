@@ -19,7 +19,7 @@ public class SetUp {
             System.setProperty("webdriver.chrome.driver", "Webdriver/chromedriver.exe");
 
         }else {
-            System.getProperty("webdriver.chrome.driver", "Webdriver/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "Webdriver/chromedriver");
         }
     }
     @BeforeMethod
