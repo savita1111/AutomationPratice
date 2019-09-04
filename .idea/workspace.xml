@@ -41,6 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,6 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.add2nd" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginTest" />
+      <option name="METHOD_NAME" value="add2nd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.addCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -107,23 +126,6 @@
       <option name="MAIN_CLASS_NAME" value="Test.LoginTest" />
       <option name="METHOD_NAME" value="addCart" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignupTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.SignupTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTest.Loginfunction" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.add2nd" />
         <item itemvalue="TestNG.LoginTest.addCart" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.SignupTest.SignupFunction" />
-        <item itemvalue="TestNG.SignupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
