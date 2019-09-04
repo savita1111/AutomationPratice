@@ -17,8 +17,11 @@ public class LoginTest extends SetUp {
         loginobj.clickEmailAddress();
         loginobj.clickPassword();
         loginobj.clickSignin();
-        addCart();
+       addCart();
+       add2nd();
     }
+
+
     public void addCart() throws InterruptedException {
         AddCartElement addcartobj = new AddCartElement(driver);
         addcartobj.setBtnwoman();
@@ -28,19 +31,29 @@ public class LoginTest extends SetUp {
         addcartobj.clickAddToCartButton();
         Thread.sleep(3000);
         addcartobj.clickContinueShpping();
-        add2nd();
+
 
     }
+
 
     public void add2nd() throws InterruptedException {
         AddCartElement add2ndcartobj = new AddCartElement(driver);
         Thread.sleep(3000);
         driver.get("http://automationpractice.com/index.php?id_category=8&controller=category");
-        add2ndcartobj.click2ndproduct();
+        add2ndcartobj.clickProduct();
         Thread.sleep(2000);
         driver.switchTo().frame(0);
         add2ndcartobj.clickAddToCartButton();
+        Thread.sleep(3000);
         add2ndcartobj.clickCheckout1();
+        Thread.sleep(3000);
+        add2ndcartobj.clickCheckout2();
+        Thread.sleep(3000);
+        add2ndcartobj.clickCheckout3();
+        add2ndcartobj.clickTermsCondition();
+        add2ndcartobj.clickCheckout4();
+        add2ndcartobj.clickPayCheck();
+        add2ndcartobj.clickSubmit();
 
     }
 }

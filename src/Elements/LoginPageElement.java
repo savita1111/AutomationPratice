@@ -11,6 +11,7 @@ public class LoginPageElement {
     public LoginPageElement(WebDriver mdriver) {
         PageFactory.initElements(mdriver, this);
     }
+         //******** Login **********
     @FindBy(xpath = "//a[@class=\"login\"]")
     WebElement signinButton;
 
@@ -34,6 +35,7 @@ public class LoginPageElement {
     WebElement buttonsignIn;
 
     public void clickSignin() {
+
         buttonsignIn.click();
     }
 }

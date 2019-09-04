@@ -1,13 +1,20 @@
 package Elements;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.Random;
+
 
 public class SignInPageElement {
     public WebDriver driver;
+    //generate random number for email
+
+    Random random = new Random();
+    public int ran = random.nextInt(900)+100;
 
     public SignInPageElement(WebDriver mdriver) {
         PageFactory.initElements(mdriver, this);
@@ -26,7 +33,8 @@ public class SignInPageElement {
     WebElement inputEmail;
 
     public void ClickinputEmail() {
-        inputEmail.sendKeys("savi@gmail.com");
+        String gmail = String.valueOf(ran);
+        inputEmail.sendKeys("signuptest"+gmail+"@test.com");
     }
 
     @FindBy(xpath = "//button[@id=\"SubmitCreate\"]")

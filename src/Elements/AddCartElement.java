@@ -11,6 +11,8 @@ public class AddCartElement {
 
         PageFactory.initElements(mdriver, this);
     }
+        //********* First Category*******
+
     @FindBy(xpath = "//a[@title=\"Women\"]")
     WebElement btnwoman;
 
@@ -42,53 +44,39 @@ public class AddCartElement {
     }
 
 
-
       //******** Second Category ******
-   /*
-    @FindBy(xpath = "//a[@class=\"sf-with-ul\"][@title=\"Dresses\"]")
-    WebElement dressCategory;
 
-
-    public void clickDressCategory(){
-        dressCategory.click();
-    }*/
-
-  /*  @FindBy(xpath = "//div[@class=\"product-image-container\"]")
-    WebElement product2;
-
-    public void click2ndproduct(){
-        product2.click();
-    }*/
-
-    @FindBy(xpath = "//a[@class=\"btn btn-default button button-medium\"]")
-    WebElement Checkoutfirst;
+    @FindBy(xpath = "//span[contains(text(),'Proceed to checkout')]")
+    WebElement checkoutfirst;
 
     public void clickCheckout1(){
-        Checkoutfirst.click();
+        checkoutfirst.click();
     }
 
-    @FindBy(xpath = "//a[@title=\"Proceed to checkout\"]")
+    @FindBy(xpath = "//a[@class='button btn btn-default standard-checkout button-medium']//span[contains(text(),'Proceed to checkout')]  ")
     WebElement proceedCheckout1;
 
-    public void clickProceedtoCheckout1(){
+    public void clickCheckout2(){
         proceedCheckout1.click();
     }
-    @FindBy(xpath = "//a[@class=\"button-exclusive btn btn-default\"]")
+
+    @FindBy(xpath = "//button[@name=\"processAddress\"]")
     WebElement proceedCheckout2;
 
-    public void clickProceed2(){
+    public void clickCheckout3(){
         proceedCheckout2.click();
     }
-    @FindBy(xpath = "//p[@class=\"checkbox\"]")
+    @FindBy(xpath = "//input[@id=\"cgv\"]")
     WebElement termsCondition;
 
     public void clickTermsCondition(){
         termsCondition.click();
     }
+
     @FindBy(xpath = "//button[@name=\"processCarrier\"]")
     WebElement proceedCheckout3;
 
-    public void clickProceed3(){
+    public void clickCheckout4(){
         proceedCheckout3.click();
     }
     @FindBy(xpath = "//a[@class=\"cheque\"]")
